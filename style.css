@@ -1,4 +1,41 @@
+
 h2{
     margin: 0;
     text-align: center;
 };
+
+.maincontainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.subConatiner{
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 4fr;
+}
+.fixedSideNav{
+background-color: aqua;
+width: 100%;
+height: 100%;
+}
+.productsContainer{
+    background-color:cadetblue;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 992px) {
+    .fixedSideNav{
+      display: none;
+    }
+
+    .subConatiner{
+       grid-template-columns: 1fr;
+    }
+    .productsContainer{
+        width: 100%;
+    }
+  }
+
+  
