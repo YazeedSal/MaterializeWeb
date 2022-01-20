@@ -1,0 +1,5 @@
+dark blue : #05668d
+less darker blue : #028090
+blueish green : #00a896
+green : #02c39a
+kinda baige : #f0f3bd
