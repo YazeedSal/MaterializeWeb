@@ -2,28 +2,55 @@
 h2{
     margin: 0;
     text-align: center;
-};
-
+}
+.navMenu{
+background-color: blueviolet ; 
+}
 .maincontainer{
+    height: 100vh;
+    width: 100vw;
     display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
 }
 .subConatiner{
-width: 100vw;
+width: 100%;
 height: 100vh;
 display: grid;
-grid-template-columns: 1fr 4fr;
+grid-template-columns: 1fr 8fr;
 }
 .fixedSideNav{
 background-color: aqua;
 width: 100%;
 height: 100%;
+display: grid;
+grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
 }
 .productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
     background-color:cadetblue;
     height: 100%;
     width: 100%;
+}
+.sideNavItem{
+    background-color: burlywood;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.sideNavItem img{
+height: 150px;
+width: 150px;
+border-radius: 37.5px; 
+margin-left: 0px;
+margin-bottom: 0px;
+}
+.itemContainer{
+height: 100px;
+width: 100px;
 }
 @media only screen and (max-width: 992px) {
     .fixedSideNav{
