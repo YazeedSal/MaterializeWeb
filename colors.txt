@@ -3,3 +3,4 @@ less darker blue : #028090
 blueish green : #00a896
 green : #02c39a
 kinda baige : #f0f3bd
+https://coolors.co/palette/05668d-028090-00a896-02c39a-f0f3bd

@@ -3,8 +3,17 @@ h2{
     margin: 0;
     text-align: center;
 }
+h4{
+    font-size: 150%;
+    padding-right: 50px;
+text-align: right;
+}
 .navMenu{
-background-color: blueviolet ; 
+background-color:#028090 ; 
+display: grid;
+grid-template-columns: 1fr  1fr;
+align-items: center;
+justify-content: center;
 }
 .maincontainer{
     height: 100vh;
@@ -21,38 +30,49 @@ display: grid;
 grid-template-columns: 1fr 8fr;
 }
 .fixedSideNav{
-background-color: aqua;
+background-color: #00a896;
 width: 100%;
 height: 100%;
 display: grid;
 grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
 }
+.sideNavItem{
+    background-color: #00a896;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+}
+.sideNavItem img{
+    height: 150px;
+    width: 150px;
+    border-radius: 37.5px; 
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }    
 .productsContainer{
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-    background-color:cadetblue;
+    background-color:#05668d;
     height: 100%;
     width: 100%;
 }
-.sideNavItem{
-    background-color: burlywood;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.card-title{
+    color: black !important;
 }
-.sideNavItem img{
-height: 150px;
-width: 150px;
-border-radius: 37.5px; 
-margin-left: 0px;
-margin-bottom: 0px;
-}
-.itemContainer{
-height: 100px;
-width: 100px;
+.productCard{ 
+    width: 300px ;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 @media only screen and (max-width: 992px) {
+    h4{
+        display: none;
+    }
     .fixedSideNav{
       display: none;
     }
