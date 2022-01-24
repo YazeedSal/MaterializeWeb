@@ -23,6 +23,10 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
+.registerBtn{
+    text-align: right;
+    margin-right: 50px;
+}
 .subConatiner{
 width: 100%;
 height: 100vh;
@@ -83,6 +87,14 @@ grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
     .productsContainer{
         width: 100%;
     }
+    .productCard{
+        margin-bottom: 150px;
+    }
   }
+  @media only screen and (max-width: 1100px) {
 
+    .productCard{
+        margin-bottom: 150px;
+    }
+  }
   
